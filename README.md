@@ -1,0 +1,2 @@
+# GiaLinh_Nguyen_Trieu_Do_Scaffold
+Each individual or team is responsible for creating a finished/finalized design file based off of 2 wireframes, Boxed out Design File or layer for  each page, HTML and CSS Box Design, and a text file with box info i.e. measurements, font info,  etc. The pages must consist of valid HTML5 and CSS3. The pages must use semantic tagging and have a proper document outline.
