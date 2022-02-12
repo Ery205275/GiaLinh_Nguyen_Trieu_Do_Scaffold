@@ -2,9 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Brand Company</title>
+		<title>Brand</title>
         <link href="css/reset.css" rel="stylesheet" type="text/css">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
+		
 	</head>
 	<body>
 		<!-- Content Goes Here -->
@@ -12,10 +13,10 @@
 		<div id="containeroutside">	
 			<header id="header">
 				<div id="space"> </div>
-				<div id="logo"> <img src="images/" alt="Main logo" width="400" height="230" >  </div>
+				<div id="logo"> <img src="images/logo_main.png" alt="Main logo" width="400" height="230" >  </div>
 				<div id="searchitems"> 	
 					<ul>
-						<img src="images/" alt="SearchIcon" width="25" height="20">
+						<img src="images/Search_glass.jpeg" alt="SearchIcon" width="25" height="20">
 						<input type="text" placeholder="Search...">
 					</ul>
 					<h3> Sign in /Sign Up </h3>
@@ -31,32 +32,33 @@
 					<h2 id="productnav"><a href="product.html">Product</a></h2>			
 			</section>
 			<div id="containerinside">
-				<section id="Promotion">
-					<h2 class="hidden">Promotion section</h2>
-					<p id="Promotiontext"> • Product overview 
-						- Lorem, ipsum dolor sit amet consectetur adipisicing elit. A natus totam facere delectus, voluptatibus voluptatem rem nisi. Est, modi eius magnam delectus at, dolorem tenetur quidem fuga numquam in perferendis.
-					</p>
-					<div id="Promotioniamge">
-						<img src="images/beer_glass.png" alt="beerglassprofile" width="700" height="570">
-					</div>
-				</section>
-				<section id="Promoimage">
-					<h2 class="hidden">Wide Promotion image</h2>
-					<img src="images/Cheers.jpg" alt="Bottle" height="355" width="1400">
-				</section>
-				<button class="button button2"><a href="product.html">Learn more</a></button>
-				<div class="product">
-	  				<div><img src="images/" alt="Whole_Beer_box"><button><a href="product.html">Learn more></a></button></div>
-	  				<div><img src="images/" alt="Whole_Beer_bottle" width="220" height="220"><button><a href="product.html">Learn more></a></button></div>
-	  				<div><img src="images/" alt="Whole_Beer_can" width="220" height="220"><button><a href="product.html">Learn more></a></button></div>  
-	  				<div><img src="images/" alt="two_beer_bottle" width="220" height="220"><button><a href="product.html">Learn more></a></button></div>
-	  				<div><img src="images/" alt="beer_glass" width="220" height="220"><button><a href="product.html">Learn more></a></button></div>
-				</div>
-				<section id="Content">
-					<h2 class="hidden">Content Area</h2>
-					<h2> The design of the product are perfectly scale by original</h2>
-					<img src="images/Ken_Hailey.jpeg" alt="Ken_Hailey" >
-				</section>
+				<section id="customerinfo">
+				<h2>Contact us at</h2> 
+				<p>gmail:  Rightgruadbeer@gmail.com</p>
+				<p>phone:  (647)-818-1213</p>
+				<h3>We will get to all questions as soon as possible. </h3>
+			    </section id='contactform'>
+				<section>
+				<form action="form.php" method="post" autocomplete="off">
+
+					<ul><label>*First name</label>
+					<input></ul>
+
+					<ul><label>*Last name</label>
+					<input ></ul>
+				
+					<ul><label >*Email Address</label>
+					<input type="email" placeholder="yourname@gmail.com"></ul>
+
+					<section>
+						<h2 >Your Comment</h2>
+						<textarea cols="50" rows="8"></textarea>
+
+						<ul><input type="submit" value="SUBMIT"></ul>
+						
+					</section>
+				</form>
+            </section>
 			</div>
 			<footer>
 				<section id="footenav">
@@ -86,10 +88,9 @@
 						<input type="submit" value="SUBMIT">
 					</div>
 				</section>
-				
 			</footer>
 		</div>
-		<script src="js/main.js"></script>
+        <script src="js/main.js"></script>
 	</body>
 
 </html>
